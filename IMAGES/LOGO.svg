@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="LOGO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.49887767"
+     inkscape:cx="395.88864"
+     inkscape:cy="562.26209"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:128.626;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.86964"
+       y="101.29821"
+       id="text165"><tspan
+         x="58.86964"
+         y="101.29821"
+         id="tspan40094"><tspan
+           style="font-weight:bold;font-size:25.4px;-inkscape-font-specification:'sans-serif Bold';fill:#aa0000"
+           id="tspan40090">W</tspan><tspan
+           style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+           id="tspan40092">O </tspan></tspan><tspan
+         x="58.86964"
+         y="130.55123"
+         id="tspan40098"><tspan
+   style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold'"
+   id="tspan40096">F</tspan>LASH</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#d40000"
+       id="path6985"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="406.91339"
+       sodipodi:cy="350.78741"
+       sodipodi:r1="38.505177"
+       sodipodi:r2="44.54359"
+       sodipodi:arg1="-0.67474094"
+       sodipodi:arg2="1.8165211"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 436.98088,326.73342 -40.90314,67.25955 43.00372,-22.04276 -76.6074,-18.11686 34.2528,34.08738 -6.44284,-78.45638 -21.83432,43.10993 72.6255,-30.37186 -47.74715,-7.44398 51.32787,59.68554 z"
+       transform="scale(0.26458333)"
+       inkscape:transform-center-x="0.83285953"
+       inkscape:transform-center-y="0.14609391" />
+  </g>
+</svg>

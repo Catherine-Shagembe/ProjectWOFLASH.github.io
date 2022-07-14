@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100vw;
+    height: 17vh;
+    margin: auto;
+    color: #f8f7f7;
+    border-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px hwb(0 9% 31%);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.button{
+    font-size: 0.9rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+button:hover{
+    color: red;
+}
+.navbar{
+    float: right;
+    margin: 20px auto;
+    display: flex;
+    font-family: "poppins";
+    align-items: center;
+}
+.navbar ul{
+    width: 90%;
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 25px 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    border-radius: 3px;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 100vw;
+    height: 10px; 
+    width: 0;
+    background: hwb(0 3% 6%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -55px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+label.Logo{
+    width: 150px;
+    float: left;
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    float: left;
+    display: flex;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.hero{
+    background-image: url("C:/Users/Vivian Shagembe/STRUCTURE/IMAGES/cover.jpg");
+    color: white;
+    background-position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins";
+    display: flex;
+}
+.color-overlay{
+    background: linear-gradient(to top right, red, purple);
+    width: 100%;
+    height: 100vh;
+    opacity: .4;
+    position: absolute;
+}
+.text{
+    text-align: center;
+    color: #f8f7f7;
+    padding-top: 180px;
+}
+.text h1{
+    font-size: 120px;
+}
+.text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.products{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    text-align: center;
+    position: relative;
+}
+.products::after{
+    content: '';
+    background: red;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fa{
+    color: hwb(0 9% 31%);
+}
+.buy_button{
+    font-size: 0.9rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    color: hwb(0 9% 31%);
+    background-color: black;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.buy_button:hover{
+    color: red;
+}
+.row{
+    display: flex;
+    flex-basis: 30%;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.new{
+    margin: 70px 0;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 150px;
+    padding:  20px;
+    margin-bottom: 30px;
+}
+.col-4 img{
+    width: 100%;
+    height: auto; 
+    box-sizing: border-box; 
+    object-fit: cover;
+}
+.img-fluid{
+    margin-bottom: 3px;
+    width: 100; 
+    height:auto; 
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.product-bottom{
+    text-align: center;
+    position: relative;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, red, purple);
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 100%;
+}
+.input-box{
+    margin-bottom: 30px;
+    position: relative;
+    cursor: text;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+    height: 50%;
+    padding: 7px;
+    outline: 0;
+    display: inline-block;
+    border: 1.5px solid black;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    cursor: text;    
+}
+label{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    padding: 5px;
+    display: inline-block;
+    color: whitesmoke;
+    cursor: text;
+    position: top;
+}
+textarea{
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    outline: 0;
+    border: 1.5px solid black;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer; 
+}
+.error{
+    font-size: 13px;
+    color: black;
+    visibility: hidden;
+}
+.form_button{
+    padding: 5px 0;
+    color: white;
+    outline: none;
+    background-color: black;
+    border: 1.5px solid white;
+    width: 100%;
+    cursor: pointer;
+}
+.Rows{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+
+}
+.Rows .input-box{
+    flex-basis: 45%;
+}
+.cart-page{
+    max-width: 1080px;
+    margin: 80px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: hwb(0 9% 31%);
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height:30px;
+    padding: 5px;
+}
+td p a{
+    color: hwb(0 9% 31%);
+    font-size: 15px;
+}
+td img{
+    width: 90px;
+    height: 80px;
+    margin-right: 10px;
+}
+.Total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.Total-price table{
+    border-top: 3px solid hwb(0 9% 31%);
+    width:100%;
+    max-width: 500px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+
+
+
+
+footer {
+    background-color: hwb(0 9% 31%);
+    height: auto;
+    width: 100vw;
+    font-family: "poppins";
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: black;
+}
+.footer-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-page p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 25px;
+    font-size:15px
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem  0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials li a{
+    
+    color: whitesmoke;
+}
+.socials a i{
+    color: white;
+    position: absolute;
+    font-size: 1.1rem;
+    transition:  color .4s ease;
+}
+.socials a:hover i{
+    color: red;
+}
+small{
+    width: 100px;
+    padding: 30px 0;
+    text-align: left;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+@media only screen and (max-width:600px){
+    .nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: whitesmoke;
+        width: 100%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .navbar ul li{
+        display: block ;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        top: 80px;
+        left: -100;
+        text-align: center;
+        transition: all .4s;
+    }
+    
+    .navbar ul{
+        display: block;
+    }
+    .row{
+        text-align: center;
+    }
+    .col-4{
+        flex-basis: 100%;
+    }
+    .col-4 img{
+        text-align: left;
+    }
+    .cart-info p{
+        display: none;
+    }
+}
